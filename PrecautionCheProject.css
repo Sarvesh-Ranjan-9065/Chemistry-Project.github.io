@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(34, 64, 48);
+}
+
+.table1  {
+    border: 10px lightblue;
+    background-image: transparent url('./bgimgCheProject.webp');
+    border-collapse: collapse , separate;
+    width: 100%;
+    height: 100%;
+    border-spacing: 10px;
+    border-top-color: lightcyan;
+    border-right-color: lightgrey;
+    border-left-color: lightblue;
+    border-bottom-color: lightyellow;
+    text-align: center;
+    background-color: hsl(from black h s l);
+    color: aliceblue;
+    margin: 20px 10px;
+  }
+ 
+.table2  {
+    border: 10px lightblue;
+    background-image: transparent url('./bgimgCheProject.webp');
+    border-collapse: collapse , separate;
+    width: 100%;
+    height: 100%;
+    border-spacing: 5px;
+    border-top-color: lightcyan;
+    border-right-color: lightgrey;
+    border-left-color: lightblue;
+    border-bottom-color: lightyellow;
+    text-align: center;
+    background-color: hsl(from rgb(8, 0, 22) h s l);
+    color: aliceblue;
+    margin: 20px 10px;
+  }
+ 
+  th, td {
+     padding: 10px;
+     border: 2px solid lightgoldenrodyellow;
+     text-align: center;
+ }
+ 
+ th:hover{
+     background-color: rgb(4, 68, 4);
+ }
+ 
+ td:hover {
+     background-color: oklab(from rgb(40, 140, 187) l a b);
+ }
+ 
+ img{
+    max-width: 520px;
+    float: center;
+    border: 2px solid blanchedalmond;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    filter: blur(70%);
+}
+
+.tips{
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+
+
+.heading{
+    color: white;
+}
+
+.sub{
+    color: white;
+}
+
+.img3{
+    align-items: right;
+    float: right;
+    background: transparent;
+    background-size: 100% 100%;
+}
+

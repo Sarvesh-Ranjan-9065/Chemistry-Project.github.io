@@ -1,0 +1,237 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    padding: 10vw;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    background-image: repeating-linear-gradient(to right bottom,
+    #e3e3ff, #dff2fd, #e2fce6, #fcfade, #ffeee2, #ffdbdb);
+    color: rgba(from color r g b);
+    min-height: 100vh;   
+}
+
+.heading {
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+
+.sub-heading {
+    margin: 20px;
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.location-container {
+    margin: 40px 0;
+}
+
+.loc-input {
+    border: 3px solid black;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 10px;
+    width: 270px;
+}
+
+.loc-input:invalid {
+    border: 3px solid black;
+}
+
+.search-btn {
+    padding: 10px 14px;
+    background-color:#269fe6;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px;
+}
+
+.air-quality, .arr, .air-quality-status {
+    font-size: 3em;
+    font-weight: 800;
+    margin-right: 90px;
+}
+
+
+.component-names {
+    display: inline-block;
+    align-items: left;
+    
+}
+
+.component-contaier div {
+    margin: 10px 0;
+}
+
+.component-val {
+    font-size: 1.2;
+    margin-left: 20px;
+    margin-right: 200px;
+    text-align: left;
+}
+
+.loc-input:hover {
+    background-color: rgb(195, 228, 240);
+}
+
+.search-btn:hover{
+    background-color: black;
+}
+
+
+
+/*...add from there..*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    float: left;
+    text-align: center;
+}
+nav a:hover{
+    color: #0af;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cyan;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+}
+
+#about{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightcyan;
+    color: black;
+    font-weight: 300;
+    text-align: right;
+}
+#health-tips{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    color: black;
+    font-weight: 300;
+    text-align: right;
+}
+#contact{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightcyan;
+    color: black;
+    font-weight: 300;
+    text-align: right;
+}
+
+section:nth-child(odd){
+    background: lightblue;
+
+}
+
+#home{
+    display: flex;
+
+    background-image: repeating-linear-gradient(to right bottom,
+    #e3e3ff, #dff2fd, #e2fce6, #fcfade, #ffeee2, #ffdbdb);
+    color: rgba(from color r g b);
+    color: black;
+    background: transparent;
+}
+
+/* about file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+   /* display: flex;
+   justify-content: center; 
+   align-items: center; */
+   min-height: 100vh;
+   background: lightgray;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+img{
+    max-width: 320px;
+    float: left;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.text-box{
+    color: aliceblue;
+}
+
+.text-box h2{
+    font-size: 42px;
+    color: black;
+    text-align: left;
+}
+
+.text-box p{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.sub{
+    text-align: justify;
+    color: black;
+}
+
+.img1{
+    max-width: 320px;
+    float: center;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    display: flex;
+}

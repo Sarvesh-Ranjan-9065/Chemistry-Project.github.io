@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 25%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6JXAQoa7ac1crZu7IgoRNq9HE6363-KU91A&usqp=CAU);
+}
+
+#div1 {
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 2px solid rgba(230, 60, 60, 0.514);
+    border-radius: 10px;
+    padding: 45px;
+    margin-top: 3%;
+    width: 40%;
+    justify-content: center;
+    background-image: repeating-linear-gradient(to right bottom,
+    #e3ffe8, #2dce7d, #488850);
+    background-repeat: no-repeat;
+    filter: blur(50%);
+    color: black;
+    font-weight: 400;
+}
+
+div {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(141, 141, 189);
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: rgb(136, 216, 242);
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: lightblue;
+    transform: scale(2.05);
+}
+
+table  {
+    border: 2px solid ;
+    border-collapse: collapse , separate;
+    width: 350px;
+    border-spacing: 10px;
+    border-top-color: rgb(84, 175, 205);
+    border-right-color:rgb(61, 181, 221);
+    border-left-color: rgb(79, 169, 200);
+    border-bottom-color: rgb(52, 159, 195);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-right: 200px;
+    background-image: repeating-linear-gradient(to right bottom,
+    #e3ffe8, #6bd2d4, #63b96f, rgba(129, 162, 76, 0.627));
+    color: black;
+    font-weight: 500;
+    background: transparent(50%);
+  }
+ 
+  th, td {
+     padding: 10px;
+     border: 0px solid green;
+     text-align: center;
+     margin: 10px;
+     padding: 10px;
+ }
+ 
+ th:hover{
+     background-color: rgb(10, 148, 139);
+ }
+ 
+ td:hover {
+     background-color: lightgreen;
+ }
+ 

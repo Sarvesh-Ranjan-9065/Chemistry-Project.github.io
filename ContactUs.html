@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ContactUs.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <h1>Developers:</h1>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Roll No</th>  
+                </tr>
+
+            <tr>
+                <td>12315036</td>
+                <td>Purvanshi Attri</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>12315607</td>
+                <td>Sneha</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>12315730</td>
+                <td>Sarvesh Ranjan</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </div>
+    <div id="div1">
+        <h1>Feedback Form</h1>
+        <form action="view.html" method="get" name="registrationForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" name="myname">
+            </div>
+            <div>
+                Email: <input type="email" name="myemail" placeholder="Email">
+            </div>
+            <div>
+                Number: <input type="number" name="mynumber">
+            </div>
+            <div>
+                Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+            </div>
+            <div>
+                <label for="country">Country:</label>
+                <select id="country">
+                    <option>select</option>
+                    <option>India</option>
+                    <option>Thailand</option>
+                    <option>America</option>
+                    <option>Japan</option>
+                    <option>Russia</option>
+                </select>
+            </div>
+            <div>
+                Share Your Feedback: <br> <textarea name="mytext" input="text" rows="5" cols="50"></textarea>
+            </div>
+            <div>
+                Date: <input type="date" name="mydate">
+            </div>
+            <div>
+                <input type="submit" value="Submit now">&nbsp;&nbsp;
+                <input type="reset" value="Reset Form">
+            </div>
+        </form>
+    </div>
+
+    </div>
+</body>
+</html>
